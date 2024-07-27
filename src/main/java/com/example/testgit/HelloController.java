@@ -13,4 +13,9 @@ public class HelloController {
         System.out.println("qqwqe");
         return "Hello World!";
     }
+
+    public String sayHello2() {
+        System.out.println("qqwqe");
+        return "Hello World!";
+    }
 }
