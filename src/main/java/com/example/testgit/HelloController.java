@@ -5,6 +5,10 @@ package com.example.testgit;
  * @description :
  */
 public class HelloController {
+    public String sayHello(String name) {
+        return "Hello " + name + "!";
+    }
+
     public String sayHello1() {
         System.out.println("qqwqe");
         return "Hello World!";
